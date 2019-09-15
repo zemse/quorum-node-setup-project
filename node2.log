@@ -1,0 +1,391 @@
+DEBUG[09-15|17:26:27.840] Sanitizing Go's GC trigger               percent=100
+INFO [09-15|17:26:27.840] Maximum peer count                       ETH=25 LES=0 total=25
+DEBUG[09-15|17:26:27.840] FS scan times                            list=30.267µs set=645ns diff=622ns
+TRACE[09-15|17:26:27.840] Started watching keystore folder         path=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/keystore
+INFO [09-15|17:26:27.841] set gcmode=archive for Raft 
+INFO [09-15|17:26:27.841] Starting peer-to-peer node               instance=Geth/v1.8.18-stable-26d38151(quorum-v2.2.5)/linux-amd64/go1.12.7
+INFO [09-15|17:26:27.841] Allocated cache and file handles         database=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/geth/chaindata cache=768 handles=2048
+INFO [09-15|17:26:27.995] Initialised chain configuration          config="{ChainID: 10 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: <nil> Engine: unknown}"
+WARN [09-15|17:26:27.995] Ethash used in full fake mode 
+INFO [09-15|17:26:27.995] Initialising Ethereum protocol           versions="[63 62]" network=31337
+INFO [09-15|17:26:27.995] Loaded most recent local header          number=0 hash=b9d20f…d47f83 td=0 age=50y5mo4d
+INFO [09-15|17:26:27.995] Loaded most recent local full block      number=0 hash=b9d20f…d47f83 td=0 age=50y5mo4d
+INFO [09-15|17:26:27.995] Loaded most recent local fast block      number=0 hash=b9d20f…d47f83 td=0 age=50y5mo4d
+DEBUG[09-15|17:26:27.995] Reinjecting stale transactions           count=0
+INFO [09-15|17:26:27.995] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[09-15|17:26:27.995] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [09-15|17:26:28.196] starting raft protocol handler 
+DEBUG[09-15|17:26:28.196] TCP listener up                          addr=[::]:21001
+INFO [09-15|17:26:28.196] loaded the latest applied index          lastAppliedIndex=0
+INFO [09-15|17:26:28.196] replaying WAL 
+INFO [09-15|17:26:28.197] New local node record                    seq=1 id=7669ddb64929fe80 ip=127.0.0.1 udp=0 tcp=21001
+INFO [09-15|17:26:28.197] Started P2P networking                   self="enode://6bdfdc0ddace992cab446072218dc155a7ed0e60518f865b3566d52997cdf40d5422cacf808639d31cad3cc2d10c9bb76a801b7f9b5e2f4c6862cde6e5382c7d@127.0.0.1:21001?discport=0"
+WARN [09-15|17:26:28.197] Removing static dial candidate           id=0x9256f0         addr=127.0.0.1:21001 err="is self"
+TRACE[09-15|17:26:28.197] New dial task                            task="staticdial c1f00aa08d759d2d 127.0.0.1:21000"
+TRACE[09-15|17:26:28.200] Quorum permissioning                     id=c1f00aa08d759d2d addr=127.0.0.1:21000 conn=staticdial EnableNodePermission=false DataDir=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2 Current Node ID=7669ddb64929fe80fd7fc97197138dca9ce1def76e1b00fca44cc5edaf6f93b8 Node Name=Geth/v1.8.18-stable-26d38151(quorum-v2.2.5)/linux-amd64/go1.12.7 Dialed Dest="enode://a0a96bdeeeee1439098838a61574eeb4b7a6a7fb7e5637ccea3e20dc16ee88b32eb558b736d3850b3e8840e49b416ee48b78ea8f037f88c6f92a41a8792c1a1c@127.0.0.1:21000?discport=0&raftport=50000" Connection ID=c1f00aa08d759d2d Connection String=c1f00aa08d759d2d5bd44d7bbdfa1f65139f048f3282036002b71d652d1cd1f9
+TRACE[09-15|17:26:28.200] Node Permissioning is Disabled.          id=c1f00aa08d759d2d addr=127.0.0.1:21000 conn=staticdial
+DEBUG[09-15|17:26:28.200] Adding p2p peer                          name=Geth/v1.8.18-stable-... addr=127.0.0.1:21000 peers=1
+TRACE[09-15|17:26:28.200] connection set up                        id=c1f00aa08d759d2d addr=127.0.0.1:21000 conn=staticdial inbound=false
+TRACE[09-15|17:26:28.200] Starting protocol eth/63                 id=c1f00aa08d759d2d conn=staticdial
+TRACE[09-15|17:26:28.200] Dial task done                           task="staticdial c1f00aa08d759d2d 127.0.0.1:21000"
+TRACE[09-15|17:26:28.200] New dial task                            task="wait for dial hist expire (29.999997953s)"
+INFO [09-15|17:26:28.263] loading WAL                              term=0 index=0
+INFO [09-15|17:26:28.264] startRaft                                raft ID=2
+INFO [09-15|17:26:28.264] starting a new raft log                  initial cluster size of=2
+2019-09-15 17:26:28.264397 I | rafthttp: starting peer 1...
+2019-09-15 17:26:28.264424 I | rafthttp: started HTTP pipelining with peer 1
+TRACE[09-15|17:26:28.264] Adding static node                       node="enode://a0a96bdeeeee1439098838a61574eeb4b7a6a7fb7e5637ccea3e20dc16ee88b32eb558b736d3850b3e8840e49b416ee48b78ea8f037f88c6f92a41a8792c1a1c@127.0.0.1:21000?discport=0&raftport=50000"
+2019-09-15 17:26:28.264712 I | rafthttp: started streaming with peer 1 (writer)
+2019-09-15 17:26:28.264886 I | rafthttp: started streaming with peer 1 (writer)
+2019-09-15 17:26:28.265077 I | rafthttp: started peer 1
+2019-09-15 17:26:28.265100 I | rafthttp: added peer 1
+raft2019/09/15 17:26:28 INFO: 2 became follower at term 0
+raft2019/09/15 17:26:28 INFO: newRaft 2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2019/09/15 17:26:28 INFO: 2 became follower at term 1
+2019-09-15 17:26:28.265114 I | rafthttp: started streaming with peer 1 (stream MsgApp v2 reader)
+2019-09-15 17:26:28.265356 I | rafthttp: started streaming with peer 1 (stream Message reader)
+DEBUG[09-15|17:26:28.265] Ethereum peer connected                  id=c1f00aa08d759d2d conn=staticdial name=Geth/v1.8.18-stable-26d38151(quorum-v2.2.5)/linux-amd64/go1.12.7
+DEBUG[09-15|17:26:28.265] InProc registered                        service=&{node:0xc0002b6f00} namespace=admin
+DEBUG[09-15|17:26:28.265] InProc registered                        service=&{node:0xc0002b6f00} namespace=admin
+2019-09-15 17:26:28.265902 I | rafthttp: peer 1 became active
+2019-09-15 17:26:28.265923 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message reader)
+DEBUG[09-15|17:26:28.265] InProc registered                        service="&{mu:{state:0 sema:0} cpuW:<nil> cpuFile: traceW:<nil> traceFile:}" namespace=debug
+2019-09-15 17:26:28.265955 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 reader)
+DEBUG[09-15|17:26:28.265] InProc registered                        service=&{node:0xc0002b6f00}                                                 namespace=debug
+DEBUG[09-15|17:26:28.265] InProc registered                        service=&{stack:0xc0002b6f00}                                                namespace=web3
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{b:0xc000249d50}                                                    namespace=eth
+TRACE[09-15|17:26:28.265] Registering sync peer                    peer=c1f00aa08d759d2d
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{b:0xc000249d50}                                                    namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{b:0xc000249d50 nonceLock:0xc0001b7b30}"                           namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{b:0xc000249d50}                                                    namespace=txpool
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{b:0xc000249d50}                                                    namespace=debug
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{b:0xc000249d50}                                                    namespace=debug
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{am:0xc000251790}                                                   namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{am:0xc000251790 nonceLock:0xc0001b7b30 b:0xc000249d50}"           namespace=personal
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{ethash:0xc0001dc700}                                               namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{ethash:0xc0001dc700}                                               namespace=ethash
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{e:0xc0001dc8c0}                                                    namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{e:0xc0001dc8c0}                                                    namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{d:0xc0000b04e0 mux:0xc00022fd40 installSyncSubscription:0xc000e0aea0 uninstallSyncSubscription:0xc000e0af00}" namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{e:0xc0001dc8c0}                                                                                                namespace=miner
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{backend:0xc000249d50 mux:0xc00022fd40 quit:<nil> chainDb:0xc000282fd0 events:0xc0004c6640 filtersMu:{state:0 sema:0} filters:map[]}" namespace=eth
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{eth:0xc0001dc8c0}                                                                                                                     namespace=admin
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{eth:0xc0001dc8c0}                                                                                                                     namespace=debug
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{config:0xc0002a8140 eth:0xc0001dc8c0}"                                                                                               namespace=debug
+DEBUG[09-15|17:26:28.266] InProc registered                        service="&{net:0xc0002b7400 networkVersion:31337}"                                                                                              namespace=net
+DEBUG[09-15|17:26:28.266] InProc registered                        service=&{raftService:0xc0000e2a80}                                                                                                             namespace=raft
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=admin
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=admin
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=web3
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.266] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=txpool
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=personal
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=ethash
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=miner
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=eth
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=admin
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=debug
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=net
+DEBUG[09-15|17:26:28.267] IPC registered                           namespace=raft
+INFO [09-15|17:26:28.267] IPC endpoint opened                      url=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/geth.ipc
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=admin
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=admin
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=web3
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=txpool
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=personal
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=miner
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=eth
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=admin
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=debug
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=net
+DEBUG[09-15|17:26:28.267] HTTP registered                          namespace=raft
+INFO [09-15|17:26:28.267] HTTP endpoint opened                     url=http://0.0.0.0:22001                                             cors=* vhosts=localhost
+2019-09-15 17:26:28.286702 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message writer)
+2019-09-15 17:26:28.286750 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 writer)
+INFO [09-15|17:26:28.313] ignoring expected ConfChangeAddNode for initial peer raft id=1
+INFO [09-15|17:26:28.314] start snapshot                           applied index=0 last snapshot index=0
+raft2019/09/15 17:26:28 INFO: 2 [term: 1] received a MsgHeartbeat message with higher term from 1 [term: 2]
+raft2019/09/15 17:26:28 INFO: 2 became follower at term 2
+raft2019/09/15 17:26:28 INFO: raft.node: 2 elected leader 1 at term 2
+INFO [09-15|17:26:28.328] QUORUM-CHECKPOINT                        name=BECAME-VERIFIER
+INFO [09-15|17:26:28.385] compacted log                            index=0
+INFO [09-15|17:26:28.385] persisted the latest applied index       index=1
+INFO [09-15|17:26:28.385] ignoring expected ConfChangeAddNode for initial peer raft id=2
+INFO [09-15|17:26:28.385] start snapshot                           applied index=1 last snapshot index=1
+INFO [09-15|17:26:28.452] compacted log                            index=1
+INFO [09-15|17:26:28.452] persisted the latest applied index       index=2
+raft2019/09/15 17:26:28 INFO: 2 [commit: 2, lastindex: 2, lastterm: 1] starts to restore snapshot [index: 3, term: 2]
+raft2019/09/15 17:26:28 INFO: log [committed=2, applied=2, unstable.offset=3, len(unstable.Entries)=0] starts to restore snapshot [index: 3, term: 2]
+raft2019/09/15 17:26:28 INFO: 2 restored progress of 1 [next = 4, match = 0, state = ProgressStateProbe, waiting = false, pendingSnapshot = 0]
+raft2019/09/15 17:26:28 INFO: 2 restored progress of 2 [next = 4, match = 3, state = ProgressStateProbe, waiting = false, pendingSnapshot = 0]
+raft2019/09/15 17:26:28 INFO: 2 [commit: 3] restored snapshot [index: 3, term: 2]
+INFO [09-15|17:26:28.519] applying snapshot to raft storage 
+INFO [09-15|17:26:28.519] updating cluster membership per raft snapshot 
+INFO [09-15|17:26:28.519] updated cluster membership 
+INFO [09-15|17:26:28.519] blockchain is caught up; no need to synchronize 
+INFO [09-15|17:26:28.519] persisted the latest applied index       index=3
+INFO [09-15|17:26:30.437] Mapped network port                      proto=tcp extport=21001 intport=21001 interface="UPNP IGDv1-IP1"
+DEBUG[09-15|17:26:47.995] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|17:26:58.200] Dial task done                           task="wait for dial hist expire (29.999997953s)"
+DEBUG[09-15|17:27:05.154] Sanitizing Go's GC trigger               percent=100
+INFO [09-15|17:27:05.154] Maximum peer count                       ETH=25 LES=0 total=25
+DEBUG[09-15|17:27:05.154] FS scan times                            list=28.432µs set=606ns diff=705ns
+TRACE[09-15|17:27:05.154] Started watching keystore folder         path=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/keystore
+INFO [09-15|17:27:05.155] set gcmode=archive for Raft 
+Fatal: Error starting protocol stack: datadir already used by another process
+DEBUG[09-15|17:27:07.996] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:27:27.996] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:27:37.694] Sanitizing Go's GC trigger               percent=100
+INFO [09-15|17:27:37.695] Maximum peer count                       ETH=25 LES=0 total=25
+DEBUG[09-15|17:27:37.695] FS scan times                            list=57.834µs set=1.189µs diff=1.628µs
+TRACE[09-15|17:27:37.695] Started watching keystore folder         path=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/keystore
+INFO [09-15|17:27:37.696] set gcmode=archive for Raft 
+Fatal: Error starting protocol stack: datadir already used by another process
+DEBUG[09-15|17:27:47.996] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:28:07.996] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:28:27.996] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:28:47.997] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:29:04.855] Sanitizing Go's GC trigger               percent=100
+INFO [09-15|17:29:04.855] Maximum peer count                       ETH=25 LES=0 total=25
+DEBUG[09-15|17:29:04.855] FS scan times                            list=33.858µs set=962ns diff=1.145µs
+TRACE[09-15|17:29:04.855] Started watching keystore folder         path=/home/lg-pc/Desktop/zemse/quorum/fromscratch/new-node-2/keystore
+INFO [09-15|17:29:04.856] set gcmode=archive for Raft 
+Fatal: Error starting protocol stack: datadir already used by another process
+DEBUG[09-15|17:29:07.997] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:29:27.997] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:29:47.997] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:30:07.998] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:30:27.998] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:30:47.998] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:31:07.999] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:31:27.999] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:31:47.999] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:32:07.999] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:32:28.000] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|17:32:31.726] Accepted connection                      addr=[::1]:59724
+TRACE[09-15|17:32:36.726] Failed RLPx handshake                    addr=[::1]:59724     conn=inbound    err="read tcp [::1]:21001->[::1]:59724: i/o timeout"
+TRACE[09-15|17:32:36.726] Setting up connection failed             addr=[::1]:59724     err="read tcp [::1]:21001->[::1]:59724: i/o timeout"
+DEBUG[09-15|17:32:48.000] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|17:32:48.186] Accepted connection                      addr=[::1]:59768
+TRACE[09-15|17:32:53.187] Failed RLPx handshake                    addr=[::1]:59768     conn=inbound    err="read tcp [::1]:21001->[::1]:59768: i/o timeout"
+TRACE[09-15|17:32:53.187] Setting up connection failed             addr=[::1]:59768     err="read tcp [::1]:21001->[::1]:59768: i/o timeout"
+DEBUG[09-15|17:33:08.000] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:33:28.000] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:33:48.000] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:34:08.001] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:34:28.001] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:34:48.001] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:35:08.002] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:35:28.002] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:35:48.002] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:36:08.003] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:36:28.003] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:36:48.003] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:37:08.004] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:37:28.004] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:37:48.004] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:38:08.004] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:38:28.004] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:38:48.005] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:39:08.005] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:39:28.005] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:39:48.005] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:40:08.006] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:40:28.006] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:40:48.006] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:41:08.006] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:41:28.007] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|17:41:28.196] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPNP IGDv1-IP1"
+DEBUG[09-15|17:41:48.007] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:42:08.007] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:42:28.007] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:42:48.008] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:43:08.008] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:43:28.008] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:43:48.008] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:44:08.009] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:44:28.009] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:44:48.009] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:45:08.009] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:45:28.010] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:45:48.010] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:46:08.010] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:46:28.010] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:46:48.011] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:47:08.011] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:47:28.011] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:47:48.011] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:48:08.012] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:48:28.012] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:48:48.012] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:49:08.012] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:49:28.013] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:49:48.013] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:50:08.013] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:50:28.014] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:50:48.014] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:51:08.014] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:51:28.014] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:51:48.015] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:52:08.015] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:52:28.015] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:52:48.015] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:53:08.016] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:53:28.016] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:53:48.016] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:54:08.016] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:54:28.017] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:54:48.017] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:55:08.017] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:55:28.018] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:55:48.018] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:56:08.018] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:56:28.018] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|17:56:28.430] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPNP IGDv1-IP1"
+DEBUG[09-15|17:56:48.018] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:57:08.019] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:57:28.019] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:57:48.019] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:58:08.019] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:58:28.020] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:58:48.020] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:59:08.020] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:59:28.020] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|17:59:48.021] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:00:08.021] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:00:28.021] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:00:48.021] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:01:08.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:01:28.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:01:48.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:02:08.023] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:02:28.023] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:02:48.023] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:03:08.024] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:03:28.024] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:03:48.024] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:04:08.025] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:04:28.025] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:04:48.025] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:05:08.025] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:05:28.026] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:05:48.026] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:06:08.026] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:06:28.026] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:06:48.027] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:07:08.027] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:07:28.027] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:07:48.028] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:08:08.028] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:08:28.028] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:08:48.028] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:09:08.029] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:09:28.029] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:09:48.029] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:10:08.030] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:10:28.030] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:10:48.030] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:11:08.030] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:11:28.031] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|18:11:28.655] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPNP IGDv1-IP1"
+DEBUG[09-15|18:11:48.031] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:12:08.031] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:12:28.031] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:12:48.032] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:13:08.032] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:13:28.032] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:13:48.033] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:14:08.033] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:14:28.033] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:14:48.034] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:15:08.034] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:15:28.034] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:15:48.035] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:16:08.035] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:16:28.035] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:16:48.036] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:17:08.036] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:17:28.036] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:17:48.036] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:18:08.037] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:18:28.037] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:18:48.037] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:19:08.038] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:19:28.038] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:19:48.038] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:20:08.038] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:20:28.039] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:20:48.039] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:21:08.039] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:21:28.039] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:21:48.040] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:22:08.040] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:22:28.040] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:22:48.041] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:23:08.041] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:23:28.041] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:23:48.042] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:24:08.042] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:24:28.042] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:24:48.042] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:25:08.043] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:25:28.043] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:25:48.043] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:26:08.044] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [09-15|18:26:27.996] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[09-15|18:26:28.044] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[09-15|18:26:28.894] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPNP IGDv1-IP1"
+DEBUG[09-15|18:26:48.044] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:27:08.045] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:27:28.045] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:27:48.045] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:28:08.046] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:28:28.046] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:28:48.046] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:29:08.047] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:29:28.047] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:29:48.047] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:30:08.047] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:30:28.048] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:30:48.048] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:31:08.048] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:31:28.049] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:31:48.049] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:32:08.049] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:32:28.049] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:32:48.049] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:33:08.050] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:33:28.050] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:33:48.050] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:34:08.050] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:34:28.051] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:34:48.051] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:35:08.051] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:35:28.051] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:35:48.052] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[09-15|18:36:08.052] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
